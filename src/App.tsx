@@ -11,8 +11,9 @@ function App() {
 
   return (
     <div className="App">
-      <Desafio1 />
-      {/* <Desafio2 />
+      {/* <Desafio1 /> */}
+      <Desafio2 />
+      {/* 
       <Desafio3 />
       <Desafio4 />
       <Desafio5 /> */}
