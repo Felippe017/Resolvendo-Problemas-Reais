@@ -11,8 +11,8 @@
   corretamente.
 
   A solução foi então envolver os elementos "span" em um único elemento pai, nesse 
-  caso, envolvi com um Fragment. Assim, o problema de sintaxe foi resolvido e permitiu
-  que o JSX fosse compilado corretamente.
+  caso, envolvi com um Fragment mas poderia envolver também com uma "div". Assim, 
+  o problema de sintaxe foi resolvido e permitiu que o JSX fosse compilado corretamente.
 */
 
 export const Desafio1 = () => {
