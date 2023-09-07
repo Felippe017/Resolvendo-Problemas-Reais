@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       {/* <Desafio1 /> */}
-      <Desafio2 />
-      {/* 
       <Desafio3 />
+      {/* <Desafio2 />
+      
       <Desafio4 />
       <Desafio5 /> */}
     </div>
