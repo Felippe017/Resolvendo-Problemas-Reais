@@ -1,12 +1,14 @@
-import React from "react";
+import React, { memo } from "react";
 import { useItemController } from "./useItemController";
 
 interface ItemProps {
   valor: number;
   parOuImpar(num: number): string;
 }
-export const Item: React.FC<ItemProps> = ({ valor, parOuImpar }) => {
+
+const Item: React.FC<ItemProps> = ({ valor, parOuImpar }) => {
   const { renderCounter, count, addCount } = useItemController();
+
   return (
     <li>
       <button onClick={addCount}>
@@ -19,3 +21,5 @@ export const Item: React.FC<ItemProps> = ({ valor, parOuImpar }) => {
     </li>
   );
 };
+
+export default memo(Item);
