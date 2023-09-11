@@ -15,7 +15,7 @@
   o problema de sintaxe foi resolvido e permitiu que o JSX fosse compilado corretamente.
 */
 
-export const Desafio1 = () => {
+export const Desafio1: React.FC = () => {
   return (
     <>
       <span>item 1</span>
