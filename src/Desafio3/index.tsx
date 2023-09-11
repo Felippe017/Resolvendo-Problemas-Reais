@@ -25,7 +25,9 @@ export const Desafio3: React.FC = () => {
     <div>
       <span> quantidade: { list.length }</span>
       <ul>
-        {list.map((item: ListItem) => (<li key={item}>{`item: ${item}`}</li>))}
+        {list.map(
+          (item: ListItem, key: number) => (<li key={ key }>item: { item }</li>
+        ))}
       </ul>
     </div>
   )
